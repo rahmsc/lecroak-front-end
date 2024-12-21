@@ -9,7 +9,7 @@ export function Navigation() {
         <li>
           <a
             href="/"
-            className="hover:text-gray-500 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+            className="hover:text-gray-500 transition-colors focus:outline-none "
           >
             Contract
           </a>
@@ -17,7 +17,7 @@ export function Navigation() {
         <li>
           <a
             href="https://x.com/lecroak"
-            className="hover:text-gray-500 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+            className="hover:text-gray-500 transition-colors focus:outline-none "
           >
             X
           </a>
@@ -25,7 +25,7 @@ export function Navigation() {
         <li>
           <a
             href="/"
-            className="hover:text-gray-500 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+            className="hover:text-gray-500 transition-colors focus:outline-none "
           >
             Telegram
           </a>
@@ -33,7 +33,7 @@ export function Navigation() {
         <li>
           <a
             href="https://docs.lecroak.art"
-            className="hover:text-gray-500 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+            className="hover:text-gray-500 transition-colors focus:outline-none "
           >
             Docs
           </a>
