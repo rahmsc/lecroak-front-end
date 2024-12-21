@@ -11,10 +11,14 @@ export function MobileNavigation() {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-4 right-4 z-50 p-2 bg-white rounded-md shadow-md"
+        className="fixed top-4 left-4 z-50 p-2"
         aria-label={isOpen ? "Close menu" : "Open menu"}
       >
-        {isOpen ? <X size={24} /> : <Menu size={24} />}
+        {isOpen ? (
+          <X size={24} className="text-black" />
+        ) : (
+          <Menu size={24} className="text-black" />
+        )}
       </button>
 
       {isOpen && (
