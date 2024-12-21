@@ -41,7 +41,7 @@ export function FramedArtwork() {
         </div>
 
         {/* Signature */}
-        <div className="absolute bottom-[15%] right-[12%] z-20 w-[20%] h-[3%]">
+        <div className="absolute bottom-[17%] right-[15%] z-20 w-[20%] h-[3%]">
           <Image
             src="/assets/signature2.svg"
             alt=""
